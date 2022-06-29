@@ -1,5 +1,6 @@
 import AppHeader from './components/App-header';
 import Home from './pages/Home';
+import Bonuses from './pages/Bonuses';
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -13,6 +14,7 @@ function App() {
         <main className="container-fluid d-flex flex-column align-items-center">
           <Routes>
           <Route path="/" element={<Home />} />
+          <Route path='/bonuses' element={<Bonuses />}/>
           </Routes>
         </main>
       </div>
