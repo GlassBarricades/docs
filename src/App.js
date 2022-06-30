@@ -1,6 +1,7 @@
 import AppHeader from './components/App-header';
 import Home from './pages/Home';
 import Bonuses from './pages/Bonuses';
+import Cashless from './pages/Cashless';
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -15,6 +16,7 @@ function App() {
           <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/bonuses' element={<Bonuses />}/>
+          <Route path="/cashless" element={<Cashless />}/>
           </Routes>
         </main>
       </div>

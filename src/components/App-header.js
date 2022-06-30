@@ -18,8 +18,8 @@ const AppHeader = () => {
                         <LinkContainer to="/">
                             <Nav.Link>Главная</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/about-us">
-                            <Nav.Link>О нас</Nav.Link>
+                        <LinkContainer to="/cashless">
+                            <Nav.Link>Безнал</Nav.Link>
                         </LinkContainer>
                         <NavDropdown title="Статьи" id="navbarScrollingDropdown">
                             <LinkContainer to="/bonuses">
