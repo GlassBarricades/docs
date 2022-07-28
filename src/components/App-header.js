@@ -33,37 +33,6 @@ const AppHeader = () => {
                                 </NavDropdown.Item>
                             </LinkContainer>
                         </NavDropdown>
-                        <NavDropdown title="Производство" id="navbarScrollingDropdown">
-                            <LinkContainer to="/catalog">
-                                <NavDropdown.Item>
-                                    Весь каталог
-                                </NavDropdown.Item>
-                            </LinkContainer>
-                            <NavDropdown.Item href="#action5">Хозинвентарь</NavDropdown.Item>
-                            <NavDropdown.Item href="#action6">
-                                Мебельная фурнитура
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action7">Спецпродукция</NavDropdown.Item>
-                            <NavDropdown.Item href="#action8">
-                                Кронштейны и крепежные системы
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action9">
-                                Малые архитектурные формы
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action10">
-                                Холодная вытяжка деталей
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action11">Другое</NavDropdown.Item>
-                        </NavDropdown>
-                        <LinkContainer to="/price">
-                            <Nav.Link>Прайс</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to="/blog">
-                            <Nav.Link>Блог</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to="/contacts">
-                            <Nav.Link>Контакты</Nav.Link>
-                        </LinkContainer>
                     </Nav>
                     <Nav as="ul">
                         <Nav.Item as="li">
